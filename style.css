@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-width: 1px black;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    max-width: 65vw;
+    margin: auto;
+}
+
+button{
+    position: absolute;
+}
+
+p{
+    font-size: large;
+    max-width: 500px;
+    text-wrap: wrap;
+}
