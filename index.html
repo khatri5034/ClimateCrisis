@@ -8,11 +8,18 @@
 </head>
 <body>
     <header class="header">
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         <div class="logo"><img src=></div>
         <h1>Global Warming 🌎🔥</h1>
     </header>
+
     
-    <nav class="nav">
+
+    <nav class="nav">    
         <ul>
             <li><a href="https://en.wikipedia.org/wiki/Climate_change">Climate Change</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Ice_cap">Polar Ice Loss</a></li>
@@ -69,7 +76,6 @@
     <footer class="footer">
         footer
     </footer>
-    
     <div class="sticky-button">↑</div>
     
     <script>
@@ -80,6 +86,15 @@
                 behavior: 'smooth'
             });
         });
+        const navEl= document.querySelector(".nav")
+        const hamEl= document.querySelector(".hamburger")
+        
+        hamEl.addEventListener('click',()=>{
+            navEl.classList.toggle("nav-open")
+            
+        })
+
+        
     </script>
 </body>
 </html>
