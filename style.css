@@ -57,7 +57,7 @@ h3 {
 }
 
 .nav {
-    background: #1a7bbf;  
+    background-color: #1a7bbf;  
     padding: 15px;
     position: sticky;
     top: 0;
@@ -344,7 +344,6 @@ a:hover::after {
     }
 
     .nav {
-
         position: fixed;
         left: 0;
         top: 65px;
@@ -353,8 +352,7 @@ a:hover::after {
         transform: translateX(100%);
         transition: transform 0.3s ease;
         z-index: 100;
-        background-color: #E6E6FA ;
-
+        background-color: #1a7bbf;
     }
 
     a:hover,
@@ -368,6 +366,7 @@ a:hover::after {
 
     .nav-open {
         transform: translateX(0);
+        background-color: #1a7bbf;
     }
 
     .nav ul {
@@ -379,14 +378,19 @@ a:hover::after {
 
     .nav ul li {
         margin-left: 0px;
-        background-color: rgba(248, 248, 248, 0.8);
     }
 
     .nav a {
         display: block;
         padding: 5px 0;
         font-size: 1.1rem;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 5px;
+        position: relative;
     }
+
+
 
     .text-image-sideBySide {
         flex-direction: column;
